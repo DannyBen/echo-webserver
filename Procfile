@@ -1,0 +1,1 @@
+web: bundle exec rackup -p ${PORT:-3000} -o 0.0.0.0 -E ${RACK_ENV:-development}
