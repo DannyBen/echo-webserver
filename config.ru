@@ -1,6 +1,6 @@
 require 'rack'
 require 'yaml'
-require 'byebug' if ENV['BYEBUG']
+require 'debug' if ENV['DEBUGGER']
 
 class Echo
   class << self

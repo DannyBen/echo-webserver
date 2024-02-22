@@ -6,5 +6,5 @@ gem "rack"
 gem "puma"
 
 group :development, :test do
-  gem 'byebug'
+  gem 'debug'
 end
