@@ -1,5 +1,6 @@
-Echo Webserver
-==================================================
+# Echo Webserver
+
+![Version](https://img.shields.io/badge/version-0.2.0-blue.svg)
 
 [Source on GitHub][1] | [Image on Docker Hub][2]
 
@@ -7,13 +8,11 @@ Echo Webserver
 
 This is a simple webserver that echoes the request information back.
 
-Usage
---------------------------------------------------
+## Usage
 
     $ docker run --rm -p 3000:3000 dannyben/echo
 
-Advanced Usage
---------------------------------------------------
+## Advanced Usage
 
 If you want to use the development (non-docker) version:
 
